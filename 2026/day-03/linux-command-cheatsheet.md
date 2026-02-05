@@ -24,7 +24,7 @@ touch <file> – Create an empty file
 
 📄 File Viewing & Editing
 
-cat <file> – View file content
+cat < file > – View file content
 
 less <file> – View file page by page
 
