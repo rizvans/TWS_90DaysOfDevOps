@@ -5,11 +5,11 @@ ls – List files and directories
 
 pwd – Show current directory path
 
-cd <dir> – Change directory
+cd <directory> – Change directory
 
-mkdir <dir> – Create a new directory
+mkdir <directory> – Create a new directory
 
-rmdir <dir> – Delete an empty directory
+rmdir <directory> – Delete an empty directory
 
 cp <src> <dest> – Copy files/directories
 
@@ -17,7 +17,7 @@ mv <src> <dest> – Move or rename files
 
 rm <file> – Delete a file
 
-rm -r <dir> – Delete directory recursively
+rm -r <directory> – Delete directory recursively
 
 touch <file> – Create an empty file
 =================================================================
