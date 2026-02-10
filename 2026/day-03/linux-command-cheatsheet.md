@@ -1,109 +1,26 @@
-# Linux command cheatsheet
-📁 File & Directory Management
+# Process management -
+• & - By adding this character to the end of command to run it in the background.
+• ps aux - shows running processes
+• top - shows sorted information about processes
+• pgrep name - Find specific process (eg - pgrep nginx)
+• kill PID - Kill a process by its PID.
 
-ls – List files and directories
+# File System -
+• pwd - shows present working directory
+• ls - list files
+• ls -l -detailed file list
+• cd DIRECTORY - change directory
+• touch f1.txt - create empty text file
+• chmod 777 file - change file permissions
+• chown user:group file - change ownership of file
+• du -h - shows file/folder size on disk
+• df -h - displays disk usage
 
-pwd – Show current directory path
-
-cd <directory> – Change directory
-
-mkdir <directory> – Create a new directory
-
-rmdir <directory> – Delete an empty directory
-
-cp <src> <dest> – Copy files/directories
-
-mv <src> <dest> – Move or rename files
-
-rm <file> – Delete a file
-
-rm -r <directory> – Delete directory recursively
-
-touch <file> – Create an empty file
-=================================================================
-
-📄 File Viewing & Editing
-
-cat < file > – View file content
-
-less <file> – View file page by page
-
-head <file> – Show first 10 lines
-
-tail <file> – Show last 10 lines
-
-tail -f <file> – Live log monitoring
-
-nano <file> – Edit file using nano editor
-
-vi <file> – Edit file using vi editor
-
-🔍 Search & Filters
-
-grep "text" <file> – Search text in a file
-
-find <path> -name "file" – Find files by name
-
-wc -l <file> – Count number of lines
-
-sort <file> – Sort file content
-
-uniq – Remove duplicate lines
-=================================================================
-
-⚙️ Permissions & Ownership
-
-chmod 755 <file> – Change file permissions
-
-chown user:group <file> – Change file owner
-
-ls -l – View permissions in detail
-=================================================================
-
-🧠 Process & System Monitoring
-
-ps -ef – Show running processes
-
-top – Real-time process monitoring
-
-htop – Enhanced process viewer
-
-kill <pid> – Kill a process
-
-df -h – Disk usage (human readable)
-
-free -m – Memory usage in MB
-
-uptime – System running time
-=================================================================
-
-🌐 Networking Commands (Required)
-
-ping <host> – Check network connectivity
-
-ip addr – Show IP address details
-
-curl <url> – API testing / HTTP request
-
-netstat -tulnp – Show listening ports
-
-ss -tuln – Modern replacement for netstat
-=================================================================
-
-📦 Package Management (Ubuntu/Debian)
-
-apt update – Update package list
-
-apt install <pkg> – Install a package
-
-apt remove <pkg> – Remove a package
-
-📌 Pro Tip (Interview Friendly)
-
-Combine commands using | (pipe)
-Example:
-
-ps -ef | grep java
-
-
-👉 Finds running Java processes
+# Networking troubleshooting
+• ping URL - check internet connectivity
+• ip a/ifconfig - shows the ip addresses
+• ip route - shows route table
+• curl URL - check if service is responding
+• netstat -a - Show listening tcp and udp ports and corresponding programs.
+• whois domain - display information of domain
+•nslookup domain - Display IP address of domain.
