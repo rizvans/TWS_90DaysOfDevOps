@@ -7,7 +7,7 @@
 
 * Command: `cat /etc/os-release`
   
-  output: PRETTY_NAME="Ubuntu 24.04.3 LTS"
+  output: `PRETTY_NAME="Ubuntu 24.04.3 LTS"
           NAME="Ubuntu"
           VERSION_ID="24.04"
           VERSION="24.04.3 LTS (Noble Numbat)"
@@ -19,7 +19,7 @@
           BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
           PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
           UBUNTU_CODENAME=noble
-          LOGO=ubuntu-logo
+          LOGO=ubuntu-logo`
   
    Observation : Confirms distribution and release version.
 
