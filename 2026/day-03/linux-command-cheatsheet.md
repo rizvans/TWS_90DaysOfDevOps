@@ -1,4 +1,5 @@
 # Process management -
+
 • & - By adding this character to the end of command to run it in the background.
 • ps aux - shows running processes
 • top - shows sorted information about processes
@@ -6,6 +7,7 @@
 • kill PID - Kill a process by its PID.
 
 # File System -
+
 • pwd - shows present working directory
 • ls - list files
 • ls -l -detailed file list
@@ -17,6 +19,7 @@
 • df -h - displays disk usage
 
 # Networking troubleshooting
+
 • ping URL - check internet connectivity
 • ip a/ifconfig - shows the ip addresses
 • ip route - shows route table
