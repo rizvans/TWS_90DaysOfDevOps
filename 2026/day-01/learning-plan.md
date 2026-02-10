@@ -1,1 +1,2 @@
-I have to follow day wise assignment and daily need to practice DevOps.
+#
+Daily I am going to give atleast 2 hours in DevOps revision and on weekends tries to complete maximum part.
