@@ -1,6 +1,8 @@
 ## Environment Basics - 
 * Command: `uname -a`
+  
   output : `Linux ip-172-31-17-40 6.14.0-1018-aws #18~24.04.1-Ubuntu SMP Mon Nov 24 19:46:27 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux`
+  
   Observation : Kernel version and architecture confirmed.
 
 * Command: `cat /etc/os-release`
